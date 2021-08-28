@@ -5,26 +5,20 @@ package com.company;
 
             int Player_Position=0,dicenum,count=0;
             System.out.println("\nThe Position of the player at starting is " + Player_Position+"\n");
-
             for(int i=1; Player_Position <=99;++i)
             {
 
                 dicenum = (int) (Math.floor(Math.random() * 6 % 7 + 1));
                 int play = (int) (Math.random() * 3);
 
-
                 if(Player_Position + dicenum >100)
                 {
                     System.out.println("The Number got while rolling dice " + dicenum+ ", If we add the Position gets above 100 not added");
                     System.out.println("The Player_Position Reached 100 Successfully!!\n");
                     Player_Position=100;
-
                 }
                 else
                 {
-
-
-
                     switch (play)
                     {
                         case 0:
@@ -51,3 +45,5 @@ package com.company;
         }
 
     }
+
+
