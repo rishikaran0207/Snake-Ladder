@@ -13,7 +13,7 @@ package com.company;
 
                 if(Player_Position + dicenum >100)
                 {
-                    System.out.println("The Number got while rolling dice " + dicenum+ ", If we add the Position gets above 100 not added");
+                    System.out.println("The Number rolling dice " + dicenum+ ", If we add the Position gets above 100 not added");
                     System.out.println("The Player_Position Reached 100 Successfully!!\n");
                     Player_Position=100;
                 }
